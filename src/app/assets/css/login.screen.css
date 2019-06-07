@@ -1,0 +1,30 @@
+.login-screen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+.facebook-login-button {
+    width: 246px;
+    height: 32px;
+    padding: 0 15px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    background-color: #1890ff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.facebook-login-button:hover {
+    background-color: #40a9ff;
+}
+.facebook-login-button:active {
+    background-color: #096dd9;
+}

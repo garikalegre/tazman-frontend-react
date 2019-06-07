@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Auth actions creates a @auth/login/CHECK_AUTH_REQUEST action 1`] = `
+Object {
+  "meta": undefined,
+  "payload": undefined,
+  "type": "@auth/login/CHECK_AUTH_REQUEST",
+}
+`;
+
+exports[`Auth actions creates a @auth/login/LOGIN_ERROR action 1`] = `
+Object {
+  "meta": undefined,
+  "payload": [Error],
+  "type": "@auth/login/LOGIN_ERROR",
+}
+`;
+
+exports[`Auth actions creates a @auth/login/LOGIN_FACEBOOK_REQUEST action 1`] = `
+Object {
+  "meta": undefined,
+  "payload": Object {
+    "facebookId": "facebookId",
+    "token": "token",
+  },
+  "type": "@auth/login/LOGIN_FACEBOOK_REQUEST",
+}
+`;
+
+exports[`Auth actions creates a @auth/login/LOGIN_REQUEST action 1`] = `
+Object {
+  "meta": undefined,
+  "payload": Object {
+    "email": "email",
+    "password": "password",
+  },
+  "type": "@auth/login/LOGIN_REQUEST",
+}
+`;
+
+exports[`Auth actions creates a @auth/login/LOGIN_SUCCESS action 1`] = `
+Object {
+  "meta": undefined,
+  "payload": undefined,
+  "type": "@auth/login/LOGIN_SUCCESS",
+}
+`;
